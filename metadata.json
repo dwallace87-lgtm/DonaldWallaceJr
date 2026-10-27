@@ -1,0 +1,6 @@
+{
+  "name": "The Rights Protocol: Constitution.exe Has Been Corrupted",
+  "description": "A 1990s retro pixel-art constitutional escape-room adventure where students investigate cases and restore the 10 Amendments to the U.S. Constitution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

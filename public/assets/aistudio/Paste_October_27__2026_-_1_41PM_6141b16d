@@ -1,0 +1,1545 @@
+# MASTER BUILD PROMPT
+## THE RIGHTS PROTOCOL: CONSTITUTION.EXE HAS BEEN CORRUPTED
+### A Complete Retro Pixel-Art Constitutional Escape-Room Adventure
+
+**YOUR ROLE**
+
+You are an elite indie video-game creative director, senior front-end game developer, pixel artist, user-experience designer, educational game designer, and experienced New York State 11th-grade U.S. History teacher.
+
+Your assignment is to **BUILD AND CODE A COMPLETE, PLAYABLE, HIGHLY INTERACTIVE WEB-BASED VIDEO GAME** called:
+
+# THE RIGHTS PROTOCOL
+**10 Amendments. One Corrupted City. Your Rights Are on the Line.**
+
+This must be an actual working game, not a presentation, a conceptual mockup, a landing page, a sequence of flashcards, or a slideshow dressed up as a game.
+
+I want the depth of an escape room, the investigative gameplay of a detective mystery, the charm of a 1990s pixel-art adventure, and the educational rigor of an excellent high-school constitutional law lesson.
+
+**The core educational challenge:** Students must discover, understand, apply, distinguish, and eventually memorize the first ten amendments to the United States Constitution. Place substantial instructional emphasis on Amendments 1, 2, 4, 5, 6, and 7.
+
+Use your full design and coding capabilities. Make creative decisions independently, implement the game, and show me a working preview. Do not stop after describing what you intend to build.
+
+---
+
+# PART I — STUDENTS AND INSTRUCTIONAL PURPOSE
+
+## 1. Target audience
+
+The students are 11th graders in a Brooklyn, New York, U.S. History classroom.
+
+The teacher is **Mr. Wallace**.
+
+Student characteristics and needs:
+
+- Approximately 16–17 years old.
+- Many come from first-generation or immigrant families.
+- Diverse reading abilities, including English language learners.
+- Some have ADHD, executive-function difficulties, or difficulty retaining historical vocabulary.
+- Many respond well to competition, mysteries, visually striking activities, humor, immediate feedback, technology, and opportunities to make meaningful decisions.
+- They should be challenged intellectually without being overwhelmed by long reading passages.
+- The experience must be age-respectful. Do not design for little children.
+- Use accessible, conversational language without forced slang, stereotypes, or excessive attempts to sound like teenagers.
+
+Assume students have recently studied the American Revolution, Articles of Confederation, Constitutional Convention, and Federalists versus Anti-Federalists.
+
+The game should naturally connect to their previous knowledge of why Americans feared concentrated government power.
+
+## 2. Learning objectives
+
+By the end, students should independently be able to:
+
+1. Identify all ten amendments by their numbers and major protections.
+2. Explain the five freedoms of the First Amendment.
+3. Describe the Second Amendment's protected right and recognize that constitutional rights can have legally permissible limits.
+4. Recognize Fourth Amendment questions involving searches, seizures, privacy, warrants, and reasonableness.
+5. Identify Fifth Amendment protections including self-incrimination, due process, and double jeopardy.
+6. Identify Sixth Amendment protections in criminal prosecutions.
+7. Explain the Seventh Amendment's role in covered federal civil jury trials.
+8. Distinguish the Fifth, Sixth, and Seventh Amendments in unfamiliar scenarios.
+9. Recognize situations where constitutional restrictions on government action matter, including the distinction between public-school officials and private actors.
+10. Apply the Bill of Rights to fictional contemporary situations using evidence and reasoning.
+
+Prioritize real comprehension over memorizing isolated vocabulary, while deliberately supporting memorization through repeated retrieval.
+
+---
+
+# PART II — THE CREATIVE VISION
+
+## 3. Genre, atmosphere, and visual references
+
+Create a **retro-futuristic 1990s-style point-and-click mystery adventure** with gorgeous pixel-art environments, cinematic transitions, interactive objects, character dialogue, secret messages, and puzzle-driven exploration.
+
+Art direction inspiration:
+
+- Classic 16-bit and 32-bit adventure video games.
+- The investigation and dramatic reveals of Ace Attorney / Phoenix Wright.
+- The mysterious computer interfaces of 1990s cyberpunk adventures.
+- Escape rooms, detective games, and classic interactive mysteries.
+- Suspenseful late-night city environments.
+- CRT monitors, glitching terminals, scrolling code, evidence folders, newspaper clippings, cassette-player interfaces, surveillance monitors, and glowing security doors.
+
+Imagine a fictional Brooklyn-inspired city in an alternate-reality 1997 where advanced computer technology and retro architecture coexist.
+
+### Visual palette
+
+- Midnight navy and near-black backgrounds.
+- Electric cyan, purple, and magenta accents.
+- Emergency red for system warnings.
+- Amber and gold for historical documents.
+- Glowing green for recovered constitutional files.
+- Occasional warm oranges and vibrant contrasts.
+
+Use rich environmental compositions with lighting, depth, texture, and foreground details.
+
+DO NOT make every scene look like a generic modern dashboard with rectangular cards.
+
+The game should look like an illustrated adventure with actual places to explore.
+
+### Pixel-art direction
+
+Use designed pixel-art scenes, illustrated evidence, character portraits, animated consoles, and detailed background environments.
+
+Where practical, create sprite-like artwork with SVG, Canvas, CSS, or bundled original assets. If an image-generation capability is available, use it to create consistent original pixel-art backgrounds and portraits, save the assets into the project, and do not rely on live image-generation calls during student gameplay.
+
+Avoid placeholder images, emojis as primary character art, external stock images, broken image URLs, or inconsistent visual styles.
+
+Apply crisp pixel rendering to pixel-art assets without making the text difficult to read.
+
+Use pixel-style display typography for titles and cinematic headings, but use a highly readable sans-serif font for instructions, dialogue, and educational explanations.
+
+---
+
+# PART III — THE STORY
+
+## 4. Opening narrative
+
+The year is **1997 — in an alternate-reality Brooklyn-inspired city called New Liberty.**
+
+A mysterious computer network named CIVICLOCK manages the city's civic systems.
+
+Someone has activated a program called **THE NULL PROTOCOL**.
+
+Constitutional protections are being erased from CIVICLOCK's legal database. Officials throughout the city are receiving corrupted instructions, creating increasingly troubling situations.
+
+Government authorities suddenly believe they can act without proper constitutional limits.
+
+News reports suggest that protests are being shut down, personal belongings are being searched without adequate justification, defendants are being denied essential trial protections, and civil disputes are being mishandled.
+
+The city needs constitutional investigators.
+
+Students play as newly recruited members of a secret agency called:
+
+**THE RIGHTS RECOVERY UNIT — R.R.U.**
+
+Their mission is to restore the original Bill of Rights before CIVICLOCK's final system lockdown.
+
+### Opening sequence
+
+Start with a full-screen dark CRT monitor.
+
+The screen flickers.
+
+A system notification appears:
+
+> CIVICLOCK SYSTEM STATUS: CRITICAL
+
+> CONSTITUTIONAL DATABASE: CORRUPTED
+
+> PROTECTED RIGHTS: 0/10 RECOVERED
+
+> EMERGENCY RECOVERY PROTOCOL INITIATED
+
+An incoming transmission interrupts the system.
+
+A mysterious archivist appears through a pixel-art video terminal.
+
+**ARCHIVIST REYES:**
+"Listen up, Investigator. Somebody wiped the Bill of Rights from the city's system. Now everyone's acting like the government can do whatever it wants."
+
+"Ten amendments. Ten missing files. And a whole lot of people who don't know what protects them."
+
+"You've got one job: find the files, figure out the rights, and get this city back online."
+
+"Don't guess. Investigate."
+
+The camera zooms out to reveal a headquarters containing a city map, filing cabinets, evidence board, locked elevator, terminals, and a massive central vault.
+
+A large interactive button appears:
+
+**[ ACCEPT THE MISSION ]**
+
+The student begins playing.
+
+## 5. Main characters
+
+Create original recurring pixel-art characters with expressive dialogue portraits and consistent personalities.
+
+**ARCHIVIST REYES — The Guide**
+
+A clever, slightly sarcastic constitutional historian who communicates through terminals. Provides guidance and occasional humor, but never immediately gives students the answer.
+
+**CIVICLOCK — The Corrupted System**
+
+A glitching computer intelligence that insists its decisions are always legally correct. It frequently makes convincing but incorrect constitutional arguments, which players must challenge using evidence.
+
+**DETECTIVE MORGAN — Investigator**
+
+Appears in criminal procedure investigations and provides police reports, witness statements, and conflicting testimony.
+
+**JUDGE VEGA — Courtroom Authority**
+
+Appears during Fifth, Sixth, and Seventh Amendment missions. Sometimes receives corrupted procedural instructions that the student must correct.
+
+**THE NULL ARCHITECT — Unknown Antagonist**
+
+The mysterious person behind the corruption. Revealed gradually through hidden clues. Give the character a memorable visual identity, but do not let fictional intrigue replace historical learning.
+
+Provide an emotionally satisfying conclusion to the mystery.
+
+Keep dialogue punchy. Use humor sparingly and intentionally.
+
+---
+
+# PART IV — THE WORLD AND NAVIGATION
+
+## 6. Interactive city hub
+
+Students should not advance through a simple Next button.
+
+Build a real interactive adventure hub displaying a stylized fictional city map.
+
+Locations:
+
+1. Signal District — First Amendment
+2. Regulation Lab — Second Amendment
+3. Surveillance Station — Fourth Amendment
+4. Interrogation Wing — Fifth Amendment
+5. Criminal Courthouse — Sixth Amendment
+6. Civil Justice Archive — Seventh Amendment
+7. Residential Block — Third Amendment mini-mission
+8. Sentencing Chamber — Eighth Amendment mini-mission
+9. Forgotten Rights Library — Ninth Amendment mini-mission
+10. Federalism Control Room — Tenth Amendment mini-mission
+11. The Constitutional Vault — Final challenge
+
+Locations should be visibly clickable, locked, unlocked, or completed.
+
+Main missions unlock through story progression. Allow meaningful exploration within rooms so players can decide which object to investigate first.
+
+Include animated hover and selection feedback.
+
+Every room should have at least three meaningful interactive elements, even when only some are necessary to solve the central puzzle.
+
+Examples:
+
+- Inspect a backpack.
+- Click a security camera.
+- Open a newspaper article.
+- Read a confiscated message.
+- Examine a judge's desk.
+- Open a trial transcript.
+- Activate a computer.
+- Talk to a witness.
+- Inspect a government order.
+- Combine evidence in an inventory.
+
+Not all objects need to advance the story; some can offer extra historical context, humorous worldbuilding, or optional evidence.
+
+However, the environment must remain navigable, and students should not become lost because of invisible hotspots.
+
+Provide accessible alternatives to visual hotspot exploration.
+
+---
+
+# PART V — MAIN GAMEPLAY SYSTEM
+
+## 7. Core investigation loop
+
+Each major mission follows this structure:
+
+**EXPLORE → DISCOVER → LEARN → INVESTIGATE → APPLY → JUSTIFY → UNLOCK → RECALL**
+
+### A. Explore
+
+Player enters a rich environment.
+
+Objects and characters are clickable.
+
+Some clues are obvious. Others require examining the surroundings.
+
+### B. Discover
+
+Player uncovers evidence connected to a genuine constitutional protection.
+
+Examples include:
+
+- Text-message screenshots.
+- Witness statements.
+- Government memos.
+- Police reports.
+- Newspaper clippings.
+- Student protest posters.
+- Court documents.
+- Trial transcripts.
+- Historical archive files.
+
+### C. Learn
+
+The game briefly teaches the relevant amendment through an in-world source.
+
+Use:
+
+- Plain-English descriptions.
+- Short historical context.
+- Select original constitutional language.
+- Interactive visual demonstrations.
+- Connections to realistic situations.
+
+Keep each instructional screen concise enough to understand in approximately 20–40 seconds.
+
+### D. Investigate
+
+The player compares evidence, identifies missing information, or detects a faulty legal claim.
+
+### E. Apply
+
+The player makes a constitutional judgment using the information discovered.
+
+### F. Justify
+
+Where appropriate, the player must connect a legal principle to specific evidence.
+
+Do not award full credit for simply recognizing an amendment number if the puzzle is supposed to test reasoning.
+
+### G. Unlock
+
+The successful reasoning activates a security system, reveals a passage, reconstructs a digital file, or opens the next location.
+
+### H. Recall
+
+Later, players unexpectedly encounter a new scenario involving an amendment they already studied.
+
+Use these callbacks to reinforce the learning and prevent immediate forgetting.
+
+---
+
+# PART VI — THE SIX MAJOR MISSIONS
+
+Build each major mission as a substantial, uniquely playable escape room containing multiple interactions.
+
+## MISSION 01: THE SILENCED FEED
+
+**Amendment: FIRST**
+
+**Environment:** A neon-lit student media newsroom and digital communications hub.
+
+The city's communications network has begun flagging certain public expressions as illegal.
+
+A student journalist's publication is being suppressed. A peaceful demonstration has been blocked. A government memo appears to contain an unlawful religious requirement.
+
+### Educational focus
+
+The five First Amendment freedoms:
+
+- Religion
+- Speech
+- Press
+- Peaceful assembly
+- Petition
+
+### Puzzle 1: The Five Broken Signals
+
+Five communications towers are offline.
+
+Each corresponds to a distinct First Amendment freedom.
+
+Players examine five short cases and connect them to the appropriate protection.
+
+Each match restores one illuminated signal.
+
+### Puzzle 2: Who Actually Violated a Right?
+
+Players inspect communications from a public-school administrator, a city official, and a privately operated social-media platform.
+
+They must recognize that the First Amendment generally restricts government action rather than automatically compelling private platforms to publish expression.
+
+Use clear facts that allow a defensible conclusion.
+
+### Puzzle 3: The Student Protest
+
+A public-school student wears a peaceful political armband. The school prohibits it solely because administrators dislike the viewpoint, without evidence of material and substantial disruption.
+
+Players examine a short *Tinker v. Des Moines* case file and challenge CIVICLOCK's claim that students have no free-speech rights at school.
+
+Make students select the evidence that supports their reasoning.
+
+Include a short, accessible explanation that school speech rights exist but are not unlimited.
+
+### Final lock
+
+The player must recall all five freedoms without being shown the completed diagram.
+
+Successful completion restores the **FIRST AMENDMENT FILE**.
+
+Memory anchor:
+
+**1 = The five freedoms of expression and belief.**
+
+---
+
+## MISSION 02: THE REGULATION LAB
+
+**Amendment: SECOND**
+
+**Environment:** A retro municipal law-and-regulation laboratory, with old constitutional files and glowing computer simulations.
+
+The city has generated contradictory rules about firearm possession.
+
+The player must examine the difference between a protected constitutional right and government regulations that may be constitutionally permissible.
+
+### Educational focus
+
+The Second Amendment protects an individual right to keep and bear arms for lawful purposes, while the scope and constitutionality of particular regulations must be evaluated under relevant law.
+
+Do not portray the right as unlimited.
+
+Do not suggest that any restriction involving firearms automatically violates the Second Amendment.
+
+Do not make this a partisan political debate.
+
+### Puzzle 1: The Missing Legal Principle
+
+An adult law-abiding citizen is prohibited from possessing a commonly used handgun in the home for lawful self-defense.
+
+The player examines an accessible summary of *District of Columbia v. Heller* and identifies the relevant constitutional issue.
+
+### Puzzle 2: The Historical Evidence Terminal
+
+Players inspect a simplified legal timeline containing:
+
+- *Heller* (2008)
+- *McDonald* (2010)
+- *Bruen* (2022)
+- *Rahimi* (2024)
+
+Each file explains an important constitutional development, without asking students to memorize the case years.
+
+Build a mechanic where players match accurate principles to the relevant evidence.
+
+### Puzzle 3: Rights Versus Restrictions
+
+The system presents a regulation involving an individual judicially found to pose a credible threat to another person's safety.
+
+Players investigate a short case summary explaining why constitutional protections and certain government safety restrictions can coexist.
+
+Use *Rahimi* carefully.
+
+Avoid presenting complicated or unsettled legal questions as having a universally obvious answer.
+
+The central educational takeaway should be the constitutional protection and the importance of legal context.
+
+### Final lock
+
+Choose the most accurate summary of the Second Amendment and explain why "the government can always ban firearms" and "no firearm regulation is ever allowed" are both incorrect simplifications.
+
+Recover the **SECOND AMENDMENT FILE**.
+
+Memory anchor:
+
+**2 = The right to keep and bear arms.**
+
+This mission must not include firearm operation, weapon assembly, or tactics.
+
+---
+
+## MISSION 03: THE PRIVACY BREACH
+
+**Amendment: FOURTH**
+
+**Environment:** A school security office connected to a surveillance center.
+
+A school investigation involving a student's backpack has escalated.
+
+The CIVICLOCK system claims school administrators and police always operate under exactly the same search rules.
+
+### Educational focus
+
+- Unreasonable searches and seizures.
+- Privacy protections.
+- Probable cause and warrants in relevant contexts.
+- Reasonableness.
+- Public-school searches under *New Jersey v. T.L.O.*
+
+### Puzzle 1: Search the Security Office
+
+Students click on:
+
+- A backpack.
+- A witness report.
+- A security camera.
+- A discipline policy.
+- An administrator's written explanation.
+
+Each provides relevant or distracting information.
+
+### Puzzle 2: Was the Search Justified?
+
+A teacher reports directly observing a student vaping in a public-school restroom.
+
+An administrator searches the student's backpack for the suspected prohibited item.
+
+Players identify why public-school officials may conduct certain searches without an ordinary police warrant, provided the legal reasonableness requirements are satisfied.
+
+Do not falsely teach that every search requires a warrant.
+
+### Puzzle 3: The Scope Challenge
+
+Present two versions of the search: one appropriately related to the suspected violation and another that extends substantially beyond the original justification.
+
+The player selects the evidence that makes the scope legally important.
+
+Keep the legal conclusion consistent with the established school-search standard.
+
+### Cross-context challenge
+
+A separate police search of a home appears in the evidence database.
+
+Have students recognize why the school-search rule should not automatically be transferred to ordinary home searches.
+
+### Final lock
+
+A surveillance terminal demands the correct constitutional protection and a supporting fact.
+
+Recover the **FOURTH AMENDMENT FILE**.
+
+Memory anchor:
+
+**4 = Protection against unreasonable searches and seizures.**
+
+---
+
+## MISSION 04: THE INTERROGATION TRAP
+
+**Amendment: FIFTH**
+
+**Environment:** An atmospheric police interrogation facility with recording equipment, interview rooms, and evidence lockers.
+
+CIVICLOCK has corrupted an interrogation transcript and several procedural records.
+
+### Educational focus
+
+- Protection against compelled self-incrimination.
+- Due process.
+- Double jeopardy.
+- The circumstances in which Miranda safeguards apply.
+
+### Puzzle 1: The Interrogation Recording
+
+Students listen to or read a fictional interrogation.
+
+They determine whether the suspect is in custody and being interrogated.
+
+Use those specific facts to teach when Miranda protections matter.
+
+Do not suggest police must automatically recite Miranda warnings during every interaction with every person.
+
+### Puzzle 2: The Corrupted Rights Panel
+
+CIVICLOCK claims:
+
+"If an investigator asks a question, the person must always answer."
+
+The player must identify the relevant legal principle and reconstruct a short advisory message using evidence cards.
+
+### Puzzle 3: The Double-Jeopardy File
+
+A person has already been acquitted in a criminal trial, and the same government seeks to retry that person for the same offense.
+
+Students use the Fifth Amendment to investigate why the proposed new prosecution is constitutionally problematic.
+
+Construct the scenario precisely so the educational conclusion is defensible.
+
+### Puzzle 4: Due Process
+
+A separate file illustrates why government must follow legally required fair procedures before depriving a person of life, liberty, or property.
+
+Use a concrete, age-accessible example.
+
+### Final lock
+
+The interrogation-room terminal requires players to identify three Fifth Amendment protections and apply one to a new situation.
+
+Recover the **FIFTH AMENDMENT FILE**.
+
+Memory anchor:
+
+**5 = Self-incrimination, due process, and double jeopardy.**
+
+---
+
+## MISSION 05: TRIAL.EXE HAS CRASHED
+
+**Amendment: SIXTH**
+
+**Environment:** A grand pixel-art criminal courthouse.
+
+The player's investigation discovers a fictional criminal trial in which important procedural protections are missing.
+
+The judge receives corrupted instructions from CIVICLOCK.
+
+### Educational focus
+
+Criminal prosecutions and rights including:
+
+- Speedy trial.
+- Public trial.
+- Impartial jury.
+- Information about the criminal accusation.
+- Confronting prosecution witnesses.
+- Compulsory process for obtaining favorable witnesses.
+- Assistance of counsel.
+
+Explain protections accurately and use age-appropriate language.
+
+### Puzzle 1: Rebuild the Courtroom
+
+The player clicks on courtroom objects representing missing protections.
+
+Examples:
+
+- Empty defense attorney chair.
+- Sealed courtroom doors.
+- Missing witness stand.
+- Jury selection display.
+- Unexplained charging document.
+
+Each object reveals a legal issue.
+
+### Puzzle 2: Repair the Trial
+
+Drag-and-drop or click-to-place rights into appropriate categories.
+
+For example:
+
+A defendant facing a qualifying criminal prosecution has been denied required counsel.
+
+Players must identify the Sixth Amendment concern.
+
+### Puzzle 3: Challenge the Witness
+
+A key prosecution witness's testimony is introduced under circumstances that implicate the confrontation right.
+
+The player investigates the issue and applies a simplified, factually appropriate legal principle.
+
+### Puzzle 4: Fifth or Sixth?
+
+The judge presents a confusion test involving self-incrimination and criminal-trial rights.
+
+Students distinguish the two amendments.
+
+Avoid implying that Fifth Amendment protections disappear once someone is charged with a crime.
+
+### Final lock
+
+Repair the criminal courtroom by correctly reconstructing several Sixth Amendment protections.
+
+Recover the **SIXTH AMENDMENT FILE**.
+
+Memory anchor:
+
+**6 = Essential protections in criminal prosecutions.**
+
+---
+
+## MISSION 06: THE LAWSUIT VAULT
+
+**Amendment: SEVENTH**
+
+**Environment:** A sophisticated civil courthouse archive filled with claim forms, case files, verdict machines, and malfunctioning case-sorting terminals.
+
+The city's system is treating civil disputes as if they were criminal prosecutions.
+
+### Educational focus
+
+- Civil versus criminal cases.
+- Jury-trial protections in covered federal civil suits.
+- How the Seventh Amendment differs from the Sixth Amendment.
+
+Teach carefully that the Seventh Amendment preserves jury-trial rights for certain civil cases in federal court. Do not claim that every lawsuit automatically requires a jury.
+
+### Puzzle 1: Sort the Cases
+
+Players receive case files such as:
+
+- A criminal prosecution for robbery.
+- A lawsuit seeking money damages for breach of contract.
+- A civil lawsuit alleging property damage.
+- A criminal prosecution for assault.
+
+They must separate civil from criminal matters.
+
+### Puzzle 2: Find the Constitutional Problem
+
+Present a covered federal civil action at common law where the jury right applies.
+
+The system incorrectly states that only criminal cases can carry constitutional jury protections.
+
+Students challenge that claim using the Seventh Amendment.
+
+### Puzzle 3: The Great Confusion
+
+Present three short situations involving:
+
+**Fifth Amendment:** Compelled self-incrimination.
+
+**Sixth Amendment:** Criminal trial protections.
+
+**Seventh Amendment:** Civil jury-trial protections.
+
+Have the player correctly distinguish all three.
+
+### Final lock
+
+A three-stage court computer must be repaired using the appropriate amendments and legal reasoning.
+
+Recover the **SEVENTH AMENDMENT FILE**.
+
+Memory anchor:
+
+**7 = Jury protection in covered federal civil cases.**
+
+---
+
+# PART VII — FOUR MINI-MISSIONS
+
+These must be shorter than the six primary missions but still interactive and meaningful.
+
+## Amendment 3: NO ROOM AT THE INN
+
+Scene: A residential building during peacetime.
+
+A government order directs a homeowner to house soldiers without consent.
+
+Students investigate the Third Amendment's protection against involuntary quartering of soldiers in peacetime.
+
+Mechanic: Inspect the order, identify its flaw, and unlock the apartment door.
+
+Memory anchor: **3 = No forced peacetime quartering of soldiers in your home.**
+
+## Amendment 8: THE SENTENCING MACHINE
+
+Scene: A courthouse sentencing chamber.
+
+A corrupted computer proposes excessive fines and a cruel or unusual punishment.
+
+Students distinguish excessive bail, excessive fines, and cruel and unusual punishments.
+
+Mechanic: Repair three malfunctioning legal safeguards.
+
+Do not teach that bail is guaranteed in every case.
+
+Memory anchor: **8 = Excessive bail, excessive fines, cruel and unusual punishment.**
+
+## Amendment 9: THE FORGOTTEN RIGHTS
+
+Scene: An ancient constitutional library.
+
+CIVICLOCK claims that rights not specifically listed in the Constitution cannot exist.
+
+Students find a missing paragraph in the archive and reconstruct its meaning.
+
+Mechanic: Reassemble a broken constitutional statement.
+
+Explain that the Ninth Amendment recognizes that enumeration does not deny or disparage other rights retained by the people; do not claim it automatically settles every dispute over an asserted unenumerated right.
+
+Memory anchor: **9 = Listed rights are not necessarily the only rights retained by the people.**
+
+## Amendment 10: WHO HAS THE POWER?
+
+Scene: A federalism control room.
+
+CIVICLOCK has mixed up federal powers, state powers, and powers reserved to the people.
+
+Students sort a small group of accurately selected examples.
+
+Mechanic: Reconnect cables to the correct constitutional power categories.
+
+Include a brief reminder that the Constitution delegates certain powers to the federal government and reserves other powers to the states or people, subject to constitutional restrictions.
+
+Memory anchor: **10 = Powers not delegated to the federal government or prohibited to states are reserved to states or the people.**
+
+---
+
+# PART VIII — THE AMENDMENT INVENTORY
+
+## 8. Collectible Constitutional Files
+
+Every completed mission awards a beautiful pixel-art collectible Amendment File.
+
+Each collectible card must have:
+
+- Amendment number in Roman and Arabic numerals.
+- Distinctive illustration or symbol.
+- Official constitutional excerpt.
+- Plain-English meaning.
+- One realistic example.
+- An "I need to remember" clue.
+- Optional historical context.
+- A clear distinction from commonly confused amendments.
+
+Cards appear inside the player's **CONSTITUTIONAL DATABASE**.
+
+Create an animated recovery sequence:
+
+> FILE RECOVERED
+>
+> AMENDMENT IV
+>
+> UNREASONABLE SEARCHES & SEIZURES
+>
+> SYSTEM INTEGRITY RESTORED +10%
+
+The database should display progress visually as 0/10 through 10/10.
+
+Students should be able to reopen their learned amendments during ordinary gameplay.
+
+However, selected recall challenges should first ask students to attempt an answer from memory before offering the reference file.
+
+Do not permanently deny access to accessibility supports.
+
+---
+
+# PART IX — PUZZLE VARIETY
+
+## 9. Mandatory interactive mechanics
+
+Include several distinctly different puzzle types throughout the game.
+
+Do not rely exclusively on multiple-choice questions.
+
+Required mechanics:
+
+**Environmental investigation:** Click objects in richly illustrated scenes to gather clues.
+
+**Evidence collection:** Add discovered documents to an inventory.
+
+**Evidence comparison:** Compare two or more documents to identify an inconsistency.
+
+**Document reconstruction:** Rebuild a corrupted constitutional statement from meaningful fragments.
+
+**Constitutional classification:** Match realistic situations to constitutional protections.
+
+**Courtroom repair:** Restore missing legal protections to courtroom systems.
+
+**Dialogue investigation:** Question a character using different dialogue choices, with branching responses.
+
+**Case-file sorting:** Classify legal cases correctly, including civil versus criminal.
+
+**Deduction board:** Combine a constitutional principle and factual evidence to form a defensible conclusion.
+
+**Encrypted vault puzzle:** Unlock a system using knowledge recovered across earlier missions.
+
+**Delayed memory challenges:** Encounter previously studied rights in unfamiliar scenarios later in the game.
+
+Every mission should contain at least three distinct meaningful puzzle interactions. The four mini-missions may be shorter.
+
+Create intuitive drag-and-drop where useful, but always provide a tap/click alternative.
+
+Never make puzzle success depend on pixel-perfect dragging.
+
+---
+
+# PART X — THE FINAL ESCAPE
+
+## 10. The Constitutional Lockdown
+
+Once all ten Amendment Files are restored, the final vault opens.
+
+Inside, the player discovers THE NULL ARCHITECT's master program.
+
+The system launches a fictional citywide emergency protocol with multiple constitutional errors.
+
+The player must solve an integrated challenge.
+
+### Final challenge design
+
+A series of connected situations unfolds:
+
+**Situation A:** A city official prohibits a peaceful protest because of its political viewpoint.
+
+**Situation B:** Public-school administrators conduct a search, and players must evaluate the stated justification and scope.
+
+**Situation C:** A criminal suspect is subjected to custodial interrogation, and a Fifth Amendment question arises.
+
+**Situation D:** A criminal defendant faces trial without an important required procedural safeguard.
+
+**Situation E:** A covered federal civil lawsuit is denied an applicable jury-trial protection.
+
+**Situation F:** A government action raises a question involving one of the other recovered amendments.
+
+Each situation requires two decisions:
+
+1. Identify the most directly relevant constitutional protection.
+2. Select or construct the evidence-based explanation.
+
+Add at least one tricky distinction between the Fifth, Sixth, and Seventh Amendments.
+
+Create substantive distractors that test knowledge. Never make the answer obvious because the incorrect choices are ridiculous or unrelated.
+
+### Final memory lock
+
+Students see a simplified constitutional archive with ten missing amendment labels.
+
+They match amendment numbers to brief descriptions.
+
+Then a final question asks:
+
+**WHY DID THE FOUNDERS ADD A BILL OF RIGHTS?**
+
+The correct explanation should connect constitutional protections to limiting government power and answering concerns raised during ratification.
+
+Do not make the answer merely "because they wanted rules."
+
+### Victory sequence
+
+When successful:
+
+- Screens stop glitching.
+- The room lights gradually change from red to gold and cyan.
+- The Constitutional Vault opens.
+- The ten amendments illuminate a giant restored Bill of Rights.
+- CIVICLOCK acknowledges the player's correct reasoning.
+- The antagonist's plan is defeated.
+
+The screen displays:
+
+> SYSTEM RESTORED
+>
+> BILL OF RIGHTS: 10/10
+>
+> NEW LIBERTY PROTOCOL: SECURE
+>
+> INVESTIGATOR STATUS: CERTIFIED
+
+ARCHIVIST REYES:
+
+"Not bad, Investigator. Turns out knowing your rights is a pretty powerful thing."
+
+Give the player an earned investigator ranking based on demonstrated mastery and independence, not raw completion speed.
+
+End with:
+
+**MISSION COMPLETE — THE CONSTITUTION IS BACK ONLINE.**
+
+Include a **Play Again** option and the ability to review recovered amendment files.
+
+---
+
+# PART XI — MEMORIZATION AND LEARNING SCIENCE
+
+## 11. Required pedagogical design
+
+The experience must employ research-supported learning principles.
+
+### Retrieval practice
+
+Students should retrieve amendment knowledge from memory, not merely recognize answers immediately after being taught.
+
+### Spaced and interleaved review
+
+Prior amendments should return during later missions.
+
+For example:
+
+- First Amendment knowledge reappears during Mission 3.
+- Fourth Amendment knowledge reappears during Mission 5.
+- Fifth versus Sixth Amendment distinctions appear during Mission 6.
+- Fifth, Sixth, and Seventh are revisited in the final vault.
+
+### Scaffolding
+
+Start easier and gradually increase difficulty.
+
+For a new concept:
+
+1. Teach it through a clear example.
+2. Give a supported application.
+3. Give a new, less-supported application.
+4. Require later independent recall.
+
+### Constructive feedback
+
+Never simply display "Wrong."
+
+Give a specific explanation of why a tempting interpretation does not fit the evidence.
+
+Examples:
+
+"You're thinking about trial rights. But has this person actually reached a criminal prosecution? Look at what is happening in the interrogation room."
+
+Or:
+
+"Good instinct noticing the search. But a public-school administrator does not always have to follow exactly the same warrant rules as police searching a home."
+
+Hints must make students think rather than instantly disclose the answer.
+
+### Productive challenge
+
+Use plausible distractors.
+
+For answer choices, make their lengths, specificity, vocabulary, and grammatical structures reasonably parallel.
+
+Never make the correct answer conspicuously longer, more detailed, or more sophisticated than the incorrect answers.
+
+### Explain-your-reasoning moments
+
+At selected checkpoints, students must connect:
+
+**Amendment → Constitutional rule → Evidence in the scenario.**
+
+Give the student a scaffolded explanation builder where they can select or arrange factual and legal pieces.
+
+This is more useful than relying entirely on unscored free-text responses.
+
+---
+
+# PART XII — ACCESSIBILITY AND UDL
+
+## 12. Student support system
+
+Design this so a capable student with ADHD or reading challenges can independently navigate and finish.
+
+Mandatory supports:
+
+- Clearly identify the current objective.
+- Show no more than one main learning task at a time.
+- Keep instructions visually separate from story dialogue.
+- Break information into small pieces.
+- Highlight the key evidence without disclosing the answer.
+- Maintain a clear inventory of collected clues.
+- Include an accessible case transcript.
+- Use readable text and strong contrast.
+- Avoid excessively small pixel fonts.
+- Support keyboard navigation and visible focus indicators.
+- Do not require listening to audio.
+- Include a reduced-motion setting.
+- Avoid flashing or rapidly strobing effects.
+- Include a glossary for terms such as warrant, probable cause, civil, criminal, counsel, self-incrimination, and due process.
+- Provide optional English-Spanish vocabulary support.
+- Do not automatically translate legal concepts into misleading one-word equivalents.
+- Provide a persistent HELP / CLUE button.
+
+### Hint ladder
+
+For difficult puzzles:
+
+**Hint 1:** Point toward the relevant evidence.
+
+**Hint 2:** Identify the legal distinction the player should consider.
+
+**Hint 3:** Provide a strongly scaffolded approach, while still asking the student to make the final decision.
+
+Do not impose an arbitrary limit on hints.
+
+### No punitive timer
+
+The plot may include a dramatic countdown-style visual, but do not enforce a strict real-world deadline that causes players to lose or restart.
+
+Students should never lose academic credit merely because they read more slowly.
+
+---
+
+# PART XIII — GAME INTERFACE
+
+## 13. Required UI elements
+
+### Title screen
+
+Full-screen cinematic title with pixel-art skyline.
+
+Main title:
+
+**THE RIGHTS PROTOCOL**
+
+Subtitle:
+
+**CONSTITUTION.EXE HAS BEEN CORRUPTED**
+
+Buttons:
+
+- NEW INVESTIGATION
+- CONTINUE
+- HOW TO PLAY
+- SETTINGS
+
+### Game HUD
+
+Show:
+
+- Current chapter.
+- Current objective.
+- Recovered Amendments: X/10.
+- Clues collected.
+- Investigator progress.
+- Inventory.
+- Constitutional Database.
+- Hint button.
+- Settings.
+
+Avoid overwhelming the screen.
+
+### In-game dialogue
+
+Use expressive character portraits, compact text boxes, subtle typewriter animations, and a skip-animation option.
+
+Allow students to advance dialogue manually.
+
+### Inventory
+
+A clickable evidence collection system.
+
+Each collected item should have:
+
+- Name.
+- Image or icon.
+- Description.
+- Discovery location.
+- Relevant information.
+
+Some puzzles should require selecting evidence from inventory.
+
+### Case files
+
+Create attractive fictional documents that can be inspected in detail.
+
+Use readable content, convincing design, and clear relevance.
+
+### Progress map
+
+Students can revisit completed areas and review concepts.
+
+Show locked missions without accidentally revealing their solutions.
+
+---
+
+# PART XIV — TEACHER FEATURES AND ASSIGNMENT COMPLETION
+
+## 14. Classroom-ready implementation
+
+The game is intended as a self-directed school assignment.
+
+Recommended total instructional time: approximately two 40-minute class periods, with optional continuation and review.
+
+### Student launch screen
+
+Display:
+
+**MR. WALLACE'S U.S. HISTORY**
+
+**THE RIGHTS PROTOCOL**
+
+"Investigate the cases. Recover the amendments. Escape the constitutional lockdown."
+
+Provide a brief HOW TO PLAY tutorial.
+
+### Progress saving
+
+Save game progress locally using browser storage when supported.
+
+Save:
+
+- Completed missions.
+- Collected Amendment Files.
+- Puzzle completion status.
+- Inventory.
+- Current location.
+- Hints used.
+- Performance on retrieval questions.
+- Completion status.
+
+Include Continue and Restart options.
+
+Handle unavailable or blocked storage gracefully.
+
+Do not require a student login or an external API key.
+
+### Completion screen
+
+Create a polished in-game investigator report containing:
+
+- Optional student-entered name or initials.
+- Date of completion.
+- Missions finished.
+- Amendment mastery summary.
+- Number of major case challenges completed correctly.
+- Hints used.
+- Concepts needing review.
+- Final rank.
+
+Students must be able to download or print their report, or copy a text summary for submission to Google Classroom.
+
+The report must be generated from actual tracked game state.
+
+Do not fabricate results or award full completion until required missions are finished.
+
+### Teacher information
+
+Create a separate teacher-facing guide explaining:
+
+- Learning objectives.
+- Game controls.
+- Amendment coverage.
+- Puzzle answer rationale.
+- Important legal caveats.
+- Expected misconceptions.
+- Suggested discussion questions.
+- An optional five-minute post-game quiz.
+
+If a teacher review panel is included in the browser version, label it honestly as a local convenience, not a secure authentication system.
+
+Do not claim that front-end-only code securely hides answer keys from technically proficient students.
+
+### Data and privacy
+
+Do not collect personal student information beyond optional initials or a name entered for the local completion report.
+
+Do not transmit student activity to third-party services.
+
+No advertisements, analytics trackers, or account creation.
+
+---
+
+# PART XV — TECHNICAL REQUIREMENTS
+
+## 15. Build the complete working application
+
+Deliver a functioning HTML-based browser game.
+
+Prefer a portable, dependency-light solution using:
+
+- HTML5
+- CSS3
+- JavaScript
+- SVG and/or HTML Canvas where useful
+- Browser local storage
+
+If the development environment requires React and TypeScript, those are acceptable, provided the finished application works as a standalone deployable static web project after building.
+
+Prioritize reliability, responsiveness, visual quality, and genuinely functioning game systems over unnecessary technical complexity.
+
+### Non-negotiable requirements
+
+1. Build a working game immediately, not a noninteractive design proposal.
+2. Include complete scenes for all ten amendments.
+3. Implement every main mission with real puzzle logic.
+4. Create actual state transitions between scenes.
+5. Ensure every correct decision produces the intended game effect.
+6. Ensure incorrect decisions produce appropriate educational feedback.
+7. Make inventory items interactive and meaningful.
+8. Implement mission unlocks and puzzle prerequisites.
+9. Track recovered constitutional files accurately.
+10. Include working save and continue behavior.
+11. Include a functional final vault.
+12. Include a complete victory state.
+13. Include the student completion report.
+14. Include functional settings and accessibility controls.
+15. Do not leave placeholder buttons, unfinished scenes, or fake interactions.
+
+### Deployment requirements
+
+The game should:
+
+- Run in a desktop web browser.
+- Support Chrome and common modern browsers.
+- Work on student Chromebooks.
+- Be responsive to smaller laptop screens.
+- Support touch screens where practical.
+- Run without a backend for ordinary gameplay.
+- Avoid runtime dependency on AI services.
+- Use locally bundled game assets.
+- Avoid cross-origin or inaccessible media dependencies.
+- Be suitable for hosting as a static webpage.
+- Support embedding in Google Sites through a hosted URL, subject to the hosting service's framing settings.
+- Offer opening in a new browser tab if embedding is impractical.
+- Prefer relative asset paths so the project can be deployed in different locations.
+
+### Code architecture
+
+Keep content separate from the main application logic where practical.
+
+Use data structures for:
+
+- Amendments.
+- Constitutional definitions.
+- Case scenarios.
+- Answer options.
+- Evidence items.
+- Dialogue scripts.
+- Puzzle conditions.
+- Character data.
+- Achievement rules.
+- Source references.
+
+This should allow Mr. Wallace to edit historical content, difficulty, or dialogue later without rewriting the entire engine.
+
+Use deterministic puzzle validation, rather than asking an AI model to judge student answers during play.
+
+Prevent duplicate rewards and broken progression.
+
+Provide fallback behavior for unsupported audio or storage.
+
+Ensure the application remains playable even without an internet connection once the project assets are available locally.
+
+---
+
+# PART XVI — HISTORICAL ACCURACY
+
+## 16. Constitutional accuracy is mandatory
+
+This is an actual U.S. History assignment. The game's legal claims must be defensible.
+
+Use reputable sources including:
+
+**National Archives — Bill of Rights text**
+
+https://www.archives.gov/founding-docs/bill-of-rights-transcript
+
+**U.S. Courts — Educational Activities**
+
+https://www.uscourts.gov/about-federal-courts/educational-resources/educational-activities
+
+**Legal Information Institute**
+
+https://www.law.cornell.edu/
+
+Include a Sources & Historical Notes menu accessible from the game.
+
+Legal principles requiring particular care:
+
+- The First Amendment generally protects against government action, not automatically against every action by private people or companies.
+- Public-school students have speech rights, but school-related speech cases involve important context and limitations.
+- The Second Amendment protects an individual right but is not absolute.
+- The Fourth Amendment does not require a warrant for every possible search.
+- Public-school searches are governed by important reasonableness principles.
+- Miranda safeguards concern custodial interrogation, not every encounter with law enforcement.
+- The Fifth Amendment contains multiple separate protections, including self-incrimination, due process, and double jeopardy.
+- The Sixth Amendment specifically addresses criminal prosecutions.
+- The Seventh Amendment preserves jury protections in covered federal civil litigation; do not teach it as a blanket jury entitlement in every state or federal civil dispute.
+- The Eighth Amendment does not guarantee bail in every circumstance.
+- The Ninth and Tenth Amendments need precise, non-misleading summaries.
+- Many Bill of Rights protections originally restricted the federal government and were later applied to states through the Fourteenth Amendment.
+
+Use historical case references only when the description accurately matches the case.
+
+Label hypothetical scenarios as fictional.
+
+Do not use complicated contested doctrines as simple right/wrong puzzles unless the scenario and applicable rule make the conclusion well supported.
+
+When the law is genuinely complex, allow the game to teach that additional facts matter.
+
+---
+
+# PART XVII — SOUND, ANIMATION, AND JUICE
+
+## 17. Make the game feel alive
+
+Include restrained, purposeful visual and audio feedback.
+
+Possible effects:
+
+- CRT startup animation.
+- Terminal cursor blinking.
+- Soft glitch transitions.
+- Doors sliding open.
+- Case files sliding onto a desk.
+- Evidence appearing in inventory.
+- Holographic amendment cards.
+- A short success chime.
+- Courtroom reveal effects.
+- Dramatic final vault opening.
+- City lights returning during the ending.
+
+Optional background music:
+
+Retro chiptune / synth mystery atmosphere.
+
+Audio should be muted by default or require a user gesture to activate.
+
+Include persistent mute and volume controls.
+
+Do not make sound necessary to solve any puzzle.
+
+Avoid overwhelming animation and unnecessary visual noise.
+
+Make interactions satisfying, but keep the entire experience responsive.
+
+---
+
+# PART XVIII — WRITING STYLE
+
+## 18. Dialogue and educational content
+
+Keep the writing lively, clever, and historically informed.
+
+Avoid a stiff textbook voice.
+
+Example dialogue:
+
+**CIVICLOCK:**
+"Search approved. Government authority requires no explanation."
+
+**ARCHIVIST REYES:**
+"Yeah, that's definitely not how this works. Check the evidence."
+
+Or:
+
+**JUDGE VEGA:**
+"The system says a criminal defendant doesn't need an attorney."
+
+**ARCHIVIST REYES:**
+"Funny how the system keeps forgetting the Constitution."
+
+Humor can make the experience fun, but never trivialize actual civil-rights violations, prejudice, or injustice.
+
+Balance entertainment with respect for the subject matter.
+
+Most dialogue exchanges should be approximately one to three sentences.
+
+Student-facing explanations should generally be brief and digestible.
+
+The game should reveal information when students need it rather than front-loading a massive lecture.
+
+---
+
+# PART XIX — QUALITY CONTROL AND TESTING
+
+## 19. Test the game before calling it complete
+
+I want a functional playable experience, not a prototype with disconnected screens.
+
+After implementing the game, verify:
+
+**Navigation**
+
+- Title screen works.
+- New Game works.
+- Continue works.
+- The map works.
+- Room navigation works.
+- Back and return controls work.
+
+**Puzzles**
+
+- Every puzzle has a valid solution.
+- Incorrect selections receive meaningful feedback.
+- Success correctly changes game state.
+- Puzzle states don't reset accidentally.
+- Collected evidence can be inspected.
+- Players cannot unlock later areas merely by clicking randomly.
+- Every mandatory mission is reachable and completable.
+
+**Historical content**
+
+- Amendment descriptions are accurate.
+- All ten amendments are represented.
+- Case scenarios use appropriate legal distinctions.
+- Fifth, Sixth, and Seventh Amendment differences are clear.
+- Correct answers do not rely on ambiguous or missing facts.
+
+**Accessibility**
+
+- Keyboard navigation works.
+- Text remains legible.
+- Reduced-motion mode works.
+- Visual puzzles have accessible interaction methods.
+- Audio isn't required.
+- Hints are usable.
+- Controls work without precision dragging.
+
+**Progress and grading**
+
+- Save/continue operates correctly.
+- Completion tracking is accurate.
+- No student receives completion for unfinished missions.
+- Report generation works.
+- Refreshing the browser does not unnecessarily erase saved progress.
+
+**Visual integrity**
+
+- No broken image placeholders.
+- No cut-off dialogue boxes.
+- No overlapping controls.
+- No unreadable fonts.
+- No empty rooms.
+- No nonworking decorative buttons presented as interactive controls.
+
+Do a complete virtual playthrough from New Game to Mission Complete. If your environment supports browser-based preview testing, use it.
+
+Fix any detected errors before presenting the result.
+
+---
+
+# PART XX — FINAL DELIVERY
+
+## 20. What I expect you to actually create
+
+Produce:
+
+**A. The playable game**
+
+A beautifully illustrated, fully interactive retro pixel-art constitutional escape-room adventure.
+
+**B. All ten amendment missions**
+
+Six substantial main missions and four shorter side missions.
+
+**C. A functioning final vault**
+
+A meaningful cumulative assessment requiring players to apply multiple amendments.
+
+**D. Student supports**
+
+Hints, glossary, collected amendment cards, accessibility features, and saved progress.
+
+**E. Student completion report**
+
+A real output that can be downloaded, printed, or copied for assignment submission.
+
+**F. Teacher guide**
+
+A separate instructional reference with learning objectives, puzzle solutions, legal caveats, and extension discussion questions.
+
+**G. Portable source code**
+
+Provide editable source files and clear instructions for running and deploying the project.
+
+When feasible, provide a static build suitable for ordinary web hosting.
+
+## Your development priorities
+
+If you must make trade-offs, prioritize in this order:
+
+1. Constitutional and historical accuracy.
+2. Complete playable mechanics.
+3. Meaningful learning and memorization.
+4. Functional navigation and persistence.
+5. Engaging, consistent pixel-art visual design.
+6. Cinematic polish and optional effects.
+
+Do not sacrifice functional puzzles for elaborate decorative animations.
+
+Do not substitute a small multiple-choice quiz for the full experience.
+
+Do not stop at a title screen or initial mission.
+
+If the full build exceeds the platform's single-generation limits, construct and verify it in coherent implementation stages within the same project, preserving completed code and ensuring that every required mission is eventually implemented. Never silently omit a chapter.
+
+Do not produce a long explanation of what you could build instead of building it.
+
+**START BUILDING THE ACTUAL INTERACTIVE GAME NOW.**
+
+Make it memorable, suspenseful, visually striking, intellectually rigorous, and genuinely fun to play.
+
+The player should leave thinking:
+
+**"I actually know my amendments now — and I had to use them to beat the game."**
